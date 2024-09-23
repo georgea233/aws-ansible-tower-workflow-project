@@ -309,3 +309,5 @@ Once you setup your Ansible Tower environment. Follow below instructions to crea
 ### 8) Once You're Done Making The Above Changes, Go Ahead And Test The Application Access Again
 - Make sure it's now able to connect with the Database
 ![ConfirmWorkFlowSuccess](https://github.com/awanmbandi/aws-real-world-projects/blob/project-resources-docs/images/Screen%20Shot%202023-11-15%20at%2012.06.52%20AM.png)
+
+### 9) I have set line 18 of file "variables/vars_appserver_instance.yaml" and line 13 of "variables/vars_rds_db_instance.yaml" to absent in order to destroy the application and the infras. When ready to deploy them, change these to present, add, commit and push changes to github repo so ansible tower can pick this and implement using the workflow template. 
